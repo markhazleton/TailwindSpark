@@ -8,7 +8,6 @@ interface PerformanceMetrics {
   ttfb: number | null;
   memoryUsage?: number;
   bundleSize?: string;
-  renderCount: number;
 }
 
 /**
@@ -21,7 +20,6 @@ export const PerformanceMonitor: React.FC = () => {
     fcp: null,
     lcp: null,
     ttfb: null,
-    renderCount: 0,
   });
 
   const [isVisible, setIsVisible] = useState(false);
@@ -31,9 +29,6 @@ export const PerformanceMonitor: React.FC = () => {
     if (process.env.NODE_ENV !== 'development') {
       return;
     }
-
-    // Track render count
-    setMetrics(prev => ({ ...prev, renderCount: prev.renderCount + 1 }));
 
     // Set up Web Vitals monitoring
     const updateMetric = (metric: Metric) => {
@@ -196,13 +191,6 @@ export const PerformanceMonitor: React.FC = () => {
               </h4>
               
               <div className="space-y-1">
-                <div>
-                  <span className="text-gray-600 dark:text-gray-400">Renders:</span>
-                  <span className="ml-1 font-mono text-blue-600 dark:text-blue-400">
-                    {metrics.renderCount}
-                  </span>
-                </div>
-                
                 {metrics.memoryUsage && (
                   <div>
                     <span className="text-gray-600 dark:text-gray-400">Memory:</span>
