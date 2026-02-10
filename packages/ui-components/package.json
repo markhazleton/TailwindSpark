@@ -35,20 +35,20 @@
     "lucide-react": "^0.563.0"
   },
   "devDependencies": {
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "typescript-eslint": "^8.45.0",
-    "@vitejs/plugin-react": "^5.1.0",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.35.0",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "typescript-eslint": "^8.55.0",
+    "@vitejs/plugin-react": "^5.1.4",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^9.39.2",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-react-refresh": "^0.5.0",
     "postcss": "^8.5.6",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.13",
-    "typescript": "^5.9.2",
-    "vite": "^7.1.12",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
     "vite-plugin-dts": "^4.5.4"
   }
 }
