@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\GitHub\\\\MarkHazleton\\\\TailwindSpark\" status)",
+      "Bash(git -C \"c:\\\\GitHub\\\\MarkHazleton\\\\TailwindSpark\" diff --stat)"
+    ]
+  }
+}
