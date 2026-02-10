@@ -290,7 +290,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, isDark, toggleTheme })
           <div className="flex flex-wrap justify-center gap-4">
             {/* Links continue below */}
             <a
-              href="https://github.com/MarkHazleton/tailwind-demo"
+              href="https://github.com/MarkHazleton/TailwindSpark"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-brand dark:hover:text-brand text-sm text-gray-600 transition-colors dark:text-gray-400"

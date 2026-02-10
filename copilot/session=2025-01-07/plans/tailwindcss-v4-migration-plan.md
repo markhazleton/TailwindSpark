@@ -95,7 +95,7 @@ export default defineConfig({
     react(),
     tailwindcss(), // New Vite plugin
   ],
-  base: '/tailwind-demo/',
+  base: '/TailwindSpark/',
   build: {
     outDir: '../../dist',
     emptyOutDir: true,

@@ -167,7 +167,7 @@ npm run preview
 
 The app uses Vite with the following key configurations:
 
-- **Base URL**: Set to `/tailwind-demo/` for GitHub Pages
+- **Base URL**: Set to `/TailwindSpark/` for GitHub Pages
 - **Build Output**: `../../dist/` for monorepo deployment
 - **Plugins**: React, TypeScript support
 

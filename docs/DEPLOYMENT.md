@@ -9,7 +9,7 @@ This project is configured for automatic deployment to GitHub Pages when changes
 1. GitHub Actions workflow builds the project
 2. Static files are generated in the `dist` folder
 3. Files are deployed to GitHub Pages
-4. Site becomes available at: `https://markhazleton.github.io/tailwind-demo/`
+4. Site becomes available at: `https://markhazleton.github.io/TailwindSpark/`
 
 ## Manual Deployment
 
@@ -27,7 +27,7 @@ npm run build
 
 ## Configuration Details
 
-- **Base URL**: `/tailwind-demo/` (configured in `apps/demo-app/vite.config.ts` using `base` for production builds)
+- **Base URL**: `/TailwindSpark/` (configured in `apps/demo-app/vite.config.ts` using `base` for production builds)
 - **Router Strategy**: Hash-based routing (recommended for GitHub Pages) or SPA fallback approach (a redirecting `404.html` is already provided). If you later switch to standard `BrowserRouter`, the existing `404.html` script will translate deep links into a hash form so the React app can hydrate.
 - **Build Output**: The demo app emits to the repository root `dist/` (configured as `outDir: '../../dist'`). The GitHub Actions workflow uploads this folder as the Pages artifact.
 - **SPA 404 Handling**: `apps/demo-app/public/404.html` implements the Spa GitHub Pages redirect pattern (RAF graph script). During build it is copied into `dist/` so direct URL refreshes work.
@@ -44,7 +44,7 @@ If you map a custom domain:
 
 ### Asset Paths Verification
 
-All static asset links (icons, manifest, images) use relative paths so they resolve under the `/tailwind-demo/` base.
+All static asset links (icons, manifest, images) use relative paths so they resolve under the `/TailwindSpark/` base.
 
 ## Local Development
 
@@ -79,8 +79,8 @@ If you later migrate from HashRouter to BrowserRouter you can keep the same `bas
 
 ## URLs After Deployment
 
-- **Live Site**: <https://markhazleton.github.io/tailwind-demo/>
-- **Home Page**: <https://markhazleton.github.io/tailwind-demo/#/>
-- **Design System**: <https://markhazleton.github.io/tailwind-demo/#/design-system>
-- **Animations**: <https://markhazleton.github.io/tailwind-demo/#/animations>
-- **Dashboard**: <https://markhazleton.github.io/tailwind-demo/#/dashboard>
+- **Live Site**: <https://markhazleton.github.io/TailwindSpark/>
+- **Home Page**: <https://markhazleton.github.io/TailwindSpark/#/>
+- **Design System**: <https://markhazleton.github.io/TailwindSpark/#/design-system>
+- **Animations**: <https://markhazleton.github.io/TailwindSpark/#/animations>
+- **Dashboard**: <https://markhazleton.github.io/TailwindSpark/#/dashboard>

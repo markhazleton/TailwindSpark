@@ -8,7 +8,7 @@
     "email": "mark@markhazleton.com",
     "url": "https://markhazleton.com"
   },
-  "homepage": "https://markhazleton.github.io/tailwind-demo/",
+  "homepage": "https://markhazleton.github.io/TailwindSpark/",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",

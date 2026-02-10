@@ -1,6 +1,6 @@
 {
   "name": "tailwindspark-monorepo",
-  "version": "1.0.18",
+  "version": "1.0.20",
   "description": "TailwindSpark - A comprehensive Tailwind CSS showcase monorepo with React and TypeScript. Part of the WebSpark portfolio by Mark Hazleton.",
   "keywords": [
     "tailwind",
@@ -17,10 +17,10 @@
     "email": "mark@markhazleton.com",
     "url": "https://markhazleton.com"
   },
-  "homepage": "https://markhazleton.github.io/tailwind-demo/",
+  "homepage": "https://markhazleton.github.io/TailwindSpark/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markhazleton/tailwind-demo.git"
+    "url": "https://github.com/markhazleton/TailwindSpark.git"
   },
   "private": true,
   "type": "module",

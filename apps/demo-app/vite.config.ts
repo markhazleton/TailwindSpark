@@ -23,7 +23,7 @@ export default defineConfig(({ command }) => ({
         template: 'treemap', // Options: treemap, sunburst, network
       }),
   ].filter(Boolean),
-  base: command === 'build' ? '/tailwind-demo/' : '/',
+  base: command === 'build' ? '/TailwindSpark/' : '/',
   build: {
     outDir: '../../dist',
     emptyOutDir: true,

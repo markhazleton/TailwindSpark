@@ -51,7 +51,7 @@ function AppContent() {
   }, []);
 
   // Use basename only in production (GitHub Pages)
-  const basename = import.meta.env.PROD ? '/tailwind-demo' : '';
+  const basename = import.meta.env.PROD ? '/TailwindSpark' : '';
 
   return (
     <ErrorBoundary>

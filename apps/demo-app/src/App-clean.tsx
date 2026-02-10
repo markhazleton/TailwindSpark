@@ -124,7 +124,7 @@ function App() {
             </p>
             <div className="flex justify-center gap-4">
               <a
-                href="https://github.com/MarkHazleton/tailwind-demo"
+                href="https://github.com/MarkHazleton/TailwindSpark"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-secondary-600 transition-colors hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400" // eslint-disable-line no-raw-primary-class/no-raw-primary-class

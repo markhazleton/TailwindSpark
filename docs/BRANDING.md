@@ -76,14 +76,14 @@ This document outlines the branding improvements made to the TailwindSpark demo 
 
 The logo path is correctly handled for GitHub Pages deployment through:
 
-1. **Vite Configuration**: `base: '/tailwind-demo/'` in `vite.config.ts`
+1. **Vite Configuration**: `base: '/TailwindSpark/'` in `vite.config.ts`
 2. **Asset Path**: Uses `import.meta.env.BASE_URL` for dynamic path resolution
 3. **CI/CD Compatible**: Works in both development and GitHub Actions build environments
 
 The implementation uses `${import.meta.env.BASE_URL}TailwindSpark.png` which automatically resolves to:
 
-- Development: `/tailwind-demo/TailwindSpark.png`
-- Production: `/tailwind-demo/TailwindSpark.png`
+- Development: `/TailwindSpark/TailwindSpark.png`
+- Production: `/TailwindSpark/TailwindSpark.png`
 
 This ensures the logo works correctly in all environments including GitHub Actions CI/CD pipeline.
 

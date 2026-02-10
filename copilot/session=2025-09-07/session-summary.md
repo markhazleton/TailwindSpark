@@ -136,12 +136,12 @@ Successfully completed comprehensive Tailwind CSS v4 migration with full documen
 
 ### 2. Development Server Routing
 
-**Problem**: User concerned that site runs on localhost root instead of `/tailwind-demo/`
+**Problem**: User concerned that site runs on localhost root instead of `/TailwindSpark/`
 
 **Analysis**: This is actually correct behavior. The Vite config properly uses:
 
 - Development: `/` (root) for better developer experience  
-- Production: `/tailwind-demo/` for GitHub Pages deployment
+- Production: `/TailwindSpark/` for GitHub Pages deployment
 
 **Result**: ✅ No changes needed - working as intended
 

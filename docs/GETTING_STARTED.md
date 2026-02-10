@@ -13,8 +13,8 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/markhazleton/tailwind-demo.git
-   cd tailwind-demo
+   git clone https://github.com/markhazleton/TailwindSpark.git
+   cd TailwindSpark
    ```
 
 2. **Install dependencies**
@@ -45,7 +45,7 @@
 ### Monorepo Structure
 
 ```
-tailwind-demo/
+TailwindSpark/
 ├── apps/demo-app/          # Main React application
 ├── packages/
 │   ├── design-tokens/      # Shared design system

@@ -9,7 +9,7 @@
     "email": "mark@markhazleton.com",
     "url": "https://markhazleton.com"
   },
-  "homepage": "https://markhazleton.github.io/tailwind-demo/",
+  "homepage": "https://markhazleton.github.io/TailwindSpark/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

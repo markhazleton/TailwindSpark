@@ -30,7 +30,7 @@ TailwindSpark is built as a modern monorepo using cutting-edge web development p
 ### Monorepo Layout
 
 ```
-tailwind-demo/
+TailwindSpark/
 ├── apps/                    # Applications
 │   └── demo-app/           # Main React application
 ├── packages/               # Shared packages

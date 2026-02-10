@@ -263,7 +263,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 ```typescript
 // Optimized build configuration
 {
-  base: command === 'build' ? '/tailwind-demo/' : '/',
+  base: command === 'build' ? '/TailwindSpark/' : '/',
   build: {
     outDir: '../../dist',
     rollupOptions: {

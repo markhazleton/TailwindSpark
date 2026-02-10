@@ -65,7 +65,7 @@ Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=()
 **Test URL:**
 
 ```
-https://securityheaders.com/?q=markhazleton.github.io/tailwind-demo/
+https://securityheaders.com/?q=markhazleton.github.io/TailwindSpark/
 ```
 
 ## ♿ **Accessibility Testing**

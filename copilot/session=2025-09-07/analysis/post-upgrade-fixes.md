@@ -17,15 +17,15 @@ Session: 2025-09-07
 
 ### 2. Development Server Routing
 
-**Problem**: Site running on localhost root instead of `/tailwind-demo/` as before.
+**Problem**: Site running on localhost root instead of `/TailwindSpark/` as before.
 
 **Analysis**: This is actually **correct behavior** - the Vite config is properly configured:
 
 ```typescript
-base: command === 'build' ? '/tailwind-demo/' : '/',
+base: command === 'build' ? '/TailwindSpark/' : '/',
 ```
 
-In development, it should run on root (`/`) for better DX. Only in production (GitHub Pages) should it use `/tailwind-demo/` base path.
+In development, it should run on root (`/`) for better DX. Only in production (GitHub Pages) should it use `/TailwindSpark/` base path.
 
 ## Fixes Applied
 
@@ -106,7 +106,7 @@ body {
 ✅ **Routing behavior is correct**
 
 - Development: runs on `http://localhost:5173/` (root) ✓
-- Production: will use `/tailwind-demo/` base path ✓
+- Production: will use `/TailwindSpark/` base path ✓
 - Service worker registration respects BASE_URL ✓
 
 ## Validation Steps Completed

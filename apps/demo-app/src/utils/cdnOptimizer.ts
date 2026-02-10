@@ -25,8 +25,8 @@ class CDNOptimizer {
 
   constructor(config: Partial<CDNConfig> = {}) {
     this.config = {
-      baseUrl: 'https://markhazleton.github.io/tailwind-demo/',
-      assetUrl: 'https://markhazleton.github.io/tailwind-demo/assets/',
+      baseUrl: 'https://markhazleton.github.io/TailwindSpark/',
+      assetUrl: 'https://markhazleton.github.io/TailwindSpark/assets/',
       enablePreconnect: true,
       enablePrefetch: true,
       cacheStrategy: 'balanced',

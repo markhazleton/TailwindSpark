@@ -1,6 +1,6 @@
 # TailwindSpark ✨
 
-[![Version](https://img.shields.io/badge/version-1.0.18-blue.svg)](https://github.com/markhazleton/tailwind-demo)
+[![Version](https://img.shields.io/badge/version-1.0.18-blue.svg)](https://github.com/markhazleton/TailwindSpark)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.1.1-61dafb.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
@@ -8,7 +8,7 @@
 
 A comprehensive Tailwind CSS showcase built as a modern React TypeScript monorepo. Part of the WebSpark portfolio by Mark Hazleton.
 
-![TailwindSpark Demo](https://raw.githubusercontent.com/markhazleton/tailwind-demo/main/apps/demo-app/public/TailwindSpark.png)
+![TailwindSpark Demo](https://raw.githubusercontent.com/markhazleton/TailwindSpark/main/apps/demo-app/public/TailwindSpark.png)
 
 ## 🚀 Quick Start
 
@@ -16,8 +16,8 @@ Get up and running in under 5 minutes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/markhazleton/tailwind-demo.git
-cd tailwind-demo
+git clone https://github.com/markhazleton/TailwindSpark.git
+cd TailwindSpark
 
 # Install dependencies
 npm install
@@ -44,7 +44,7 @@ Open [http://localhost:5173](http://localhost:5173) to view the demo.
 ## 📁 Project Structure
 
 ```
-tailwind-demo/
+TailwindSpark/
 ├── apps/demo-app/              # Main React application
 ├── packages/
 │   ├── design-tokens/          # Shared design system
@@ -74,7 +74,7 @@ npm run type-check   # Run TypeScript checks
 
 ## 🌐 Live Demo
 
-Visit the live demo: **[TailwindSpark Demo](https://markhazleton.github.io/tailwind-demo/)**
+Visit the live demo: **[TailwindSpark Demo](https://markhazleton.github.io/TailwindSpark/)**
 
 Explore the showcase of:
 
@@ -147,7 +147,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[View Demo](https://markhazleton.github.io/tailwind-demo/)** • **[Documentation](./docs/)** • **[Report Bug](https://github.com/markhazleton/tailwind-demo/issues)**
+**[View Demo](https://markhazleton.github.io/TailwindSpark/)** • **[Documentation](./docs/)** • **[Report Bug](https://github.com/markhazleton/TailwindSpark/issues)**
 
 Built with ❤️ using React, TypeScript, and Tailwind CSS
 
